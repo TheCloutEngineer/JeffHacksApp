@@ -1,5 +1,9 @@
 # jeffhacksapp
 
+Tools:
+* Vue.js
+* Vuetify
+* PWA
 ## Project setup
 ```
 npm install
