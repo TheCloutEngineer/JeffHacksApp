@@ -18,6 +18,7 @@
     <v-content>
       <HelloWorld />
       <FastFood />
+      <AltFood />
     </v-content>
   </v-app>
 </template>
@@ -25,9 +26,11 @@
 <script>
 import HelloWorld from "./components/HelloWorld";
 import FastFood from "./components/FastFood";
+import AltFood from "./components/AltFood";
 export default {
   name: "App",
   components: {
+    AltFood,
     HelloWorld,
     FastFood
   },
