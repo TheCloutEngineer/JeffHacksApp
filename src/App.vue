@@ -1,9 +1,9 @@
 <template>
   <v-app>
     <v-app-bar app>
-      <v-toolbar-title class="headline text-uppercase">
+      <v-toolbar-title class="align-center headline text-uppercase">
         <span>Team #16 </span>
-        <span class="font-weight-light">T8sty</span>
+        <span class="font-weight-light">T8sty App</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <v-btn
@@ -17,17 +17,19 @@
 
     <v-content>
       <HelloWorld />
+      <FastFood />
     </v-content>
   </v-app>
 </template>
 
 <script>
 import HelloWorld from "./components/HelloWorld";
-
+import FastFood from "./components/FastFood";
 export default {
   name: "App",
   components: {
-    HelloWorld
+    HelloWorld,
+    FastFood
   },
   data: () => ({
     //
